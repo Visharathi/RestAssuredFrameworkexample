@@ -1,0 +1,75 @@
+2022-12-27 21:04:31,715  INFO [main] RestAssuredFrameworkexample:27 - **********Executing First Test Case**********
+2022-12-27 21:04:31,750 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://reqres.in:443
+2022-12-27 21:04:31,751 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to reqres.in:443
+2022-12-27 21:04:31,751 DEBUG [Finalizer] DefaultClientConnection:180 - Connection 0.0.0.0:50517<->104.26.10.213:443 closed
+2022-12-27 21:04:31,811 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2022-12-27 21:04:31,811 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2022-12-27 21:04:31,811 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2022-12-27 21:04:31,811 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2022-12-27 21:04:31,812 DEBUG [main] DefaultHttpClient:677 - Attempt 1 to execute request
+2022-12-27 21:04:31,812 DEBUG [main] DefaultClientConnection:274 - Sending request: POST /api/users HTTP/1.1
+2022-12-27 21:04:31,812 DEBUG [main] wire:73 -  >> "POST /api/users HTTP/1.1[\r][\n]"
+2022-12-27 21:04:31,812 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2022-12-27 21:04:31,812 DEBUG [main] wire:73 -  >> "Content-Type: application/json[\r][\n]"
+2022-12-27 21:04:31,812 DEBUG [main] wire:73 -  >> "Content-Length: 31[\r][\n]"
+2022-12-27 21:04:31,813 DEBUG [main] wire:73 -  >> "Host: reqres.in[\r][\n]"
+2022-12-27 21:04:31,813 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-12-27 21:04:31,813 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.17)[\r][\n]"
+2022-12-27 21:04:31,813 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-12-27 21:04:31,813 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2022-12-27 21:04:31,813 DEBUG [main] headers:278 - >> POST /api/users HTTP/1.1
+2022-12-27 21:04:31,814 DEBUG [main] headers:281 - >> Accept: */*
+2022-12-27 21:04:31,814 DEBUG [main] headers:281 - >> Content-Type: application/json
+2022-12-27 21:04:31,814 DEBUG [main] headers:281 - >> Content-Length: 31
+2022-12-27 21:04:31,814 DEBUG [main] headers:281 - >> Host: reqres.in
+2022-12-27 21:04:31,814 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2022-12-27 21:04:31,814 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.17)
+2022-12-27 21:04:31,815 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2022-12-27 21:04:31,815 DEBUG [main] wire:87 -  >> "{"name":"visha","job":"tester"}"
+2022-12-27 21:04:31,872 DEBUG [main] wire:73 -  << "HTTP/1.1 201 Created[\r][\n]"
+2022-12-27 21:04:31,873 DEBUG [main] wire:73 -  << "Date: Tue, 27 Dec 2022 21:04:33 GMT[\r][\n]"
+2022-12-27 21:04:31,873 DEBUG [main] wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2022-12-27 21:04:31,873 DEBUG [main] wire:73 -  << "Content-Length: 81[\r][\n]"
+2022-12-27 21:04:31,873 DEBUG [main] wire:73 -  << "Connection: keep-alive[\r][\n]"
+2022-12-27 21:04:31,873 DEBUG [main] wire:73 -  << "X-Powered-By: Express[\r][\n]"
+2022-12-27 21:04:31,873 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2022-12-27 21:04:31,873 DEBUG [main] wire:73 -  << "Etag: W/"51-QEveaUepVdwMdaeR0Viu2X9FDsw"[\r][\n]"
+2022-12-27 21:04:31,874 DEBUG [main] wire:73 -  << "Via: 1.1 vegur[\r][\n]"
+2022-12-27 21:04:31,874 DEBUG [main] wire:73 -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2022-12-27 21:04:31,874 DEBUG [main] wire:73 -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=42us%2FG5wPos2PJZUrs2C65b5rQ06a9RaqSERoTMybzF9NOJCum5q3MCCPx%2Bl65n8o4ugpaHVGzkc82N7qj1OTnKwXl5kZWKevuIVXEk2inScIA4NEunKYdtXDA%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2022-12-27 21:04:31,874 DEBUG [main] wire:73 -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2022-12-27 21:04:31,874 DEBUG [main] wire:73 -  << "Server: cloudflare[\r][\n]"
+2022-12-27 21:04:31,874 DEBUG [main] wire:73 -  << "CF-RAY: 7805025f9aea7488-LHR[\r][\n]"
+2022-12-27 21:04:31,874 DEBUG [main] wire:73 -  << "[\r][\n]"
+2022-12-27 21:04:31,874 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 201 Created
+2022-12-27 21:04:31,875 DEBUG [main] headers:262 - << HTTP/1.1 201 Created
+2022-12-27 21:04:31,875 DEBUG [main] headers:265 - << Date: Tue, 27 Dec 2022 21:04:33 GMT
+2022-12-27 21:04:31,875 DEBUG [main] headers:265 - << Content-Type: application/json; charset=utf-8
+2022-12-27 21:04:31,875 DEBUG [main] headers:265 - << Content-Length: 81
+2022-12-27 21:04:31,875 DEBUG [main] headers:265 - << Connection: keep-alive
+2022-12-27 21:04:31,875 DEBUG [main] headers:265 - << X-Powered-By: Express
+2022-12-27 21:04:31,875 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2022-12-27 21:04:31,875 DEBUG [main] headers:265 - << Etag: W/"51-QEveaUepVdwMdaeR0Viu2X9FDsw"
+2022-12-27 21:04:31,875 DEBUG [main] headers:265 - << Via: 1.1 vegur
+2022-12-27 21:04:31,876 DEBUG [main] headers:265 - << CF-Cache-Status: DYNAMIC
+2022-12-27 21:04:31,876 DEBUG [main] headers:265 - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=42us%2FG5wPos2PJZUrs2C65b5rQ06a9RaqSERoTMybzF9NOJCum5q3MCCPx%2Bl65n8o4ugpaHVGzkc82N7qj1OTnKwXl5kZWKevuIVXEk2inScIA4NEunKYdtXDA%3D%3D"}],"group":"cf-nel","max_age":604800}
+2022-12-27 21:04:31,876 DEBUG [main] headers:265 - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2022-12-27 21:04:31,876 DEBUG [main] headers:265 - << Server: cloudflare
+2022-12-27 21:04:31,877 DEBUG [main] headers:265 - << CF-RAY: 7805025f9aea7488-LHR
+2022-12-27 21:04:31,877 DEBUG [main] DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2022-12-27 21:04:31,878 DEBUG [main] RestAssuredHttpBuilder:553 - Parsing response as: application/json; charset=utf-8
+2022-12-27 21:04:31,878 DEBUG [main] RestAssuredHttpBuilder:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-12-27 21:04:31,880 DEBUG [main] wire:87 -  << "{"name":"visha","job":"tester","id":"156","createdAt":"2022-12-27T21:04:33.247Z"}"
+2022-12-27 21:04:31,881 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@29fd8e67
+2022-12-27 21:04:31,882 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2022-12-27 21:04:32,310  INFO [main] RestAssuredFrameworkexample:43 - **********End of all PostRequest Test Cases**********
+2022-12-27 21:04:32,423 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2022-12-27 21:04:32,424 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2022-12-27 21:04:32,425 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-12-27 21:04:32,426 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-12-27 21:04:32,426 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/PrakashV/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-12-27 21:04:32,578 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_GB", UTF-8, parsed); will try to load it.
+2022-12-27 21:04:32,579 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_GB.ftl"): Not found
+2022-12-27 21:04:32,579 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-12-27 21:04:32,579 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-12-27 21:04:32,580 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_GB", UTF-8, parsed) from "jar:file:/C:/Users/PrakashV/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

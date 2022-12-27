@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite for Rest Assured Framework">
+<listeners>
+<listener class-name="utilities.ExtentReporterNG"></listener>
+</listeners>
+  <test name="Testing all TCs">
+      <classes>
+      <class name="GetRequestTest.ValidateGetRequestTest"/>
+      <class name="PostResquestTest.ValidationPostRequestTest"/>
+      </classes>
+  </test> <!-- Test --> 
+   
+
+</suite> <!-- Suite -->
